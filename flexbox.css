@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aliceblue;
+}
+main{
+    margin: auto;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: row;
+} 
+.boat{
+    background-color: orange;
+    padding: 2em;
+    color: white;
+}
+.canoe{
+    background-color: rgb(57, 122, 122);
+    color: white;
+    padding: 2.1em;
+    font-family: 'Times New Roman', Times, serif;
+}
+.ship{
+    background-color: rgb(13, 75, 54);
+    padding: 2.1em;
+    color: white;
+}
+.cup{
+    font-family:  'Big Shoulders Display';
+    padding: 15px;
+    text-align: left;
+    font-weight: bold;
+}
+.chair{
+    border-radius: 20px;
+    border: 0;
+    padding: 12px;
+    margin: 100px 10px 10px;
+}
